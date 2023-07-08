@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<style>
+
+.content {
+    font-family: monospace;
+    font-size: 20px;
+    width: 1000px;
+  }
+
+div.top {
+  padding-left: 50px
+}
+
+body {
+  background-color: white;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 100%;
+}
+
+div.gallery2 {
+  margin: 5px;
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  background-color: Gainsboro;
+  width: 430px;
+}
+
+div.desc2 {
+  padding: 10px;
+  text-align: center;
+  background-color: Gainsboro;
+  width: 680px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+
+
+
+  <div class="content">
+    <div class="top">
+      <h1><a target="_self" href="HOME.html">george hall</a>;<br>keyboard design<br>& photography</h1>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="gallery">
+          <a target="_self" href="UNAGI.html">
+            <img src="imgs/unagicover.png" alt="Unagi" height="auto">
+          </a>
+          <div class="desc">Unagi</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="gallery">
+          <a target="_self" href="XTAL.html">
+            <img src="imgs/xtal3.png" alt="XTAL" height="auto">
+          </a>
+          <div class="desc">XTAL</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <div class="gallery">
+          <a target="_self" href="PHOTOGRAPHY.html">
+            <img src="imgs/raquel.png" alt="Photography" height="auto">
+          </a>
+          <div class="desc">Photography</div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="gallery">
+          <!-- <a target="_self" href="PHOTOGRAPHY.html"> -->
+            <img src="imgs/commission1.png" alt="Commissions" height="auto">
+          </a>
+          <div class="desc">Commissions - UNDER CONSTRUCTION</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
